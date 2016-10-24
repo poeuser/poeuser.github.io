@@ -158,10 +158,13 @@ img {
 }
 
 header {
+  display:none;
+/*
   width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+*/
 }
 
 header ul {
@@ -224,9 +227,13 @@ header ul a strong {
 }
 
 section {
+  width:auto;
+  float:none;
+/*
   width:500px;
   float:right;
   padding-bottom:50px;
+*/
 }
 
 small {
